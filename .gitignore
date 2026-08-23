@@ -1,0 +1,12 @@
+# Private Backups – werden nie ins öffentliche Repository übernommen
+/backup/
+
+# Falls WordPress-Exportdateien versehentlich ausserhalb von backup/ landen
+*.wxr
+*export*.xml
+
+# Betriebssystem- und Editor-Dateien
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
